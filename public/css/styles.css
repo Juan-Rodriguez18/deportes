@@ -1,0 +1,110 @@
+/* Reset de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Contenedor principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h1, h2 {
+    color: #4CAF50;
+}
+
+/* Estilo para los formularios */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Botón de envío */
+input[type="submit"], .button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover, .button:hover {
+    background-color: #45a049;
+}
+
+/* Mensajes de error y éxito */
+
+.error {
+    color: red;
+    margin-bottom: 20px; /* Aumenta el margen inferior de los mensajes */
+    padding: 10px; /* Agrega padding para más espacio interno */
+    border-radius: 4px; /* Redondea las esquinas */
+}
+
+.success {
+    color: green;
+    margin-bottom: 15px;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Acciones en la tabla */
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.button{
+    margin-bottom: 15px;
+}
